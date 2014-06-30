@@ -1,0 +1,1 @@
+uuid | document_post_date | internal_document_number | created_by | branch_code

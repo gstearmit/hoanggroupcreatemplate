@@ -1,0 +1,154 @@
+<?php
+/*
+stardevelop.com Live Help
+International Copyright stardevelop.com
+
+You may not distribute this program in any manner,
+modified or otherwise, without the express, written
+consent from stardevelop.com
+
+You may make modifications, but only for your own 
+use and within the confines of the License Agreement.
+All rights reserved.
+
+Selling the code for this program without prior 
+written consent is expressly forbidden. Obtain 
+permission before redistributing this program over 
+the Internet or in any other medium.  In all cases 
+copyright and header must remain intact.  
+*/
+
+$installed = false;
+$database = include('../include/database.php');
+if ($database) {
+	include('../include/spiders.php');
+	include('../include/class.mysql.php');
+	include('../include/class.cookie.php');
+	$installed = include('../include/config.php');
+} else {
+	$installed = false;
+}
+
+if ($installed == false) {
+	header('Location: ./default.php');
+}
+
+header('Content-type: text/css');
+
+if (file_exists('../locale/' . LANGUAGE_TYPE . '/guest.php')) {
+	include('../locale/' . LANGUAGE_TYPE . '/guest.php');
+}
+else {
+	include('../locale/en/guest.php');
+}
+
+if (!isset($_SETTINGS['DIRECTION'])) { $_SETTINGS['DIRECTION'] = 'ltr'; }
+?>
+
+div, p, td {
+	font-family: <?php echo($_SETTINGS['FONT']); ?>;
+	font-size: <?php echo($_SETTINGS['FONTSIZE']); ?>;
+	color: <?php echo($_SETTINGS['FONTCOLOR']); ?>;
+	direction: <?php echo($_SETTINGS['DIRECTION']); ?>;
+}
+body {
+	background-color: <?php echo($_SETTINGS['BACKGROUNDCOLOR']); ?>;
+	color: <?php echo($_SETTINGS['FONTCOLOR']); ?>;
+}
+input, textarea {
+	font-family:<?php echo($_SETTINGS['CHATFONT']); ?>; 
+    font-size: <?php echo($_SETTINGS['CHATFONTSIZE']); ?>;
+}
+a.normlink:link, a.normlink:visited, a.normlink:active {
+	color: <?php echo($_SETTINGS['LINKCOLOR']); ?>;
+	text-decoration: none;
+	font-family: <?php echo($_SETTINGS['FONT']); ?>;
+	border-bottom-width: 0.05em;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+a.normlink:hover {
+	color: <?php echo($_SETTINGS['LINKCOLOR']); ?>;
+	text-decoration: none;
+	font-family: <?php echo($_SETTINGS['FONT']); ?>;
+	border-bottom-width: 0.05em;
+	border-bottom-style: solid;
+	border-bottom-color: <?php echo($_SETTINGS['LINKCOLOR']); ?>;
+}
+.heading {
+	font-family: <?php echo($_SETTINGS['FONT']); ?>;
+	font-size: 16px;
+}
+.small {
+	font-family: <?php echo($_SETTINGS['FONT']); ?>;
+	font-size: 10px;
+}
+.headingusers {
+	font-family: <?php echo($_SETTINGS['FONT']); ?>;
+	font-size: 18px;
+}
+.smallusers {
+	font-family: <?php echo($_SETTINGS['FONT']); ?>;
+	font-size: 10px;
+	color: #CBCBCB;
+}
+.message {
+	font-family: <?php echo($_SETTINGS['CHATFONT']); ?>;
+	font-size: <?php echo($_SETTINGS['CHATFONTSIZE']); ?>;
+}
+a.message:link, a.message:visited, a.message:active {
+	color: <?php echo($_SETTINGS['LINKCOLOR']); ?>;
+	text-decoration: none;
+	font-family: <?php echo($_SETTINGS['CHATFONT']); ?>;
+	font-size: <?php echo($_SETTINGS['CHATFONTSIZE']); ?>;
+	border-bottom-width: 0.05em;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+a.message:hover {
+	color: <?php echo($_SETTINGS['LINKCOLOR']); ?>;
+	text-decoration: none;
+	font-family: <?php echo($_SETTINGS['CHATFONT']); ?>;
+	font-size: <?php echo($_SETTINGS['CHATFONTSIZE']); ?>;
+	border-bottom-width: 0.05em;
+	border-bottom-style: solid;
+	border-bottom-color: <?php echo($_SETTINGS['LINKCOLOR']); ?>;
+}
+a.tooltip {
+	position: relative;
+	font-family: <?php echo($_SETTINGS['FONT']); ?>;
+	font-size: 10px;
+	z-index: 100;
+	color: #000000;
+	text-decoration: none;
+	border-bottom-width: 0.05em;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+}
+a.tooltip:hover {
+	z-index: 150;
+	background-color: #FFFFFF;
+}
+a.tooltip span {
+	display: none
+}
+a.tooltip:hover span {
+    display: block;
+    position: absolute;
+    top: 15px;
+	left: -100px;
+	width: 175px;
+	padding: 5px;
+	margin: 10px;
+    border: 1px dashed #339;
+    background-color: #E8EAFC;
+	color: #000000;
+    text-align: center
+}
+.box {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFF77;
+	background-color: #FFFFCC;
+	margin-top: 10px;
+}

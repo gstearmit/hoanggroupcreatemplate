@@ -1,0 +1,187 @@
+/* css trang chi tiet san pham*/
+
+#list-product{
+    background: white;
+    border-radius: 10px;
+    width: 738px;
+    margin-top:15px;
+    box-shadow: 1px 1px 6px 1px;
+    padding: 10px;
+    float: left;
+}
+#list-product h2{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: normal;
+    color: #575757;
+}
+#list-product h2 span{
+    color: #3b9234;
+}
+.giam-gia{
+    width: 123.5px;
+    float: left;
+    text-align: center;
+    border-bottom:1px solid #ade3f9;
+    border-left: 1px solid #ade3f9;
+}
+
+#left{
+    width:250px;
+    border: 1px solid #e2e2e2;
+    float: left;
+    margin: 20px 10px;
+    border-radius:5px;
+    position: relative;
+    padding-bottom: 100px;
+}
+#left h3{
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    background: #ff6600;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px 5px 0px 0px;
+}
+#left h2{
+    border:  1px solid #ade3f9;
+    height: 15px;
+    
+    text-align: center;
+    font-weight: normal;
+    font-family: arial;
+    font-size: 14px;
+    float: left;
+    width: 248px;
+    margin-top:10px;
+    background:#DBF5FF;
+}
+#left p{
+    background: #dbf5ff;
+    color: #444646;
+}
+#left a{
+    position: absolute;
+    bottom: 10px;
+    left: -10px;
+    background: url("../images/vecter.png") no-repeat;
+    height: 75px;
+    width:250px;
+}
+#gia-goc{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: arial;
+    color: #393939;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-left: 1px solid #ade3f9;
+    border-bottom: 1px solid #ade3f9;
+    border-right: 1px solid #ade3f9;
+}
+
+
+#right {
+    width:463px;
+    float: right;
+}
+#right h1{
+    background: url("../images/diem-noi-bat.jpg") repeat-x;
+    height: 25px;
+    margin-top: 10px;
+    border: 1px solid #e4e4e4;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: #41a03a;
+    line-height: 25px;
+    padding-left: 10px;
+    width:449px;
+}
+.n-d {width:460px; text-align:justify;}
+#right p{
+    font-family: arial;
+    font-size: 12px;
+    margin: 10px 0px;
+    color: #545454;
+}
+#right p span{
+    font-weight: bold;
+}
+#right ul li{
+    display: inline;
+    margin: 5px;
+}
+#img-conten{
+    margin-top: 10px;
+   height:265px;
+  width:460px;    
+}
+#content p{
+    font-size: 12px;
+    font-family: arial;
+    margin: 10px 0px;
+    color: #4c4b4b;
+}
+
+#content{
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+#menu-right{
+    margin-top:15px;
+    float: right;
+    width: 230px;
+}
+.ban-chay{
+    background: white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.ban-chay h4{
+    background: #eaffd2;
+    color: #434343;
+    height: 30px;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 20px;
+    line-height:30px;
+}
+.ban-chay img{
+    margin: 7px;
+}
+.conten-aq{
+    background: url("../images/ba.png")no-repeat left;
+    margin-left: 7px;
+    border-radius: 3px;
+    padding-left: 5px;
+    height: 56px;
+}
+.conten-aq p{
+    padding: 3px 0px;
+}
+.conten-aq p a{
+    background: url("../images/mua-ngay.png");
+    width:67px;
+    height: 18px;
+    float: right;
+    font-size: 8px;
+    font-family: arial;
+    font-weight: bold;
+    margin-right: 30px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}

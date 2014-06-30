@@ -1,0 +1,139 @@
+
+
+.submit{
+	border:none;
+	width:104px;
+	height:35px;
+	background:url(../images/dangky.png) no-repeat;
+	color:white;
+	
+	font-size: 17px !important;
+    font-weight: normal;
+
+    text-shadow: -1px -1px #6E8C41
+	
+}
+
+  .member_register .text{
+	border: 1px solid #D5D5D5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.07) inset;
+    color: #000000;
+    font: 12px/25px "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 28px;
+    margin: 5px 0;
+    padding: 0 8px;
+    width: 300px;
+    word-spacing: 0.1em;
+  }
+  
+ .right{
+ 	
+	background:#fff;
+	padding-bottom:20px;
+ } 
+ 
+ .txt-email{
+ 	background:url(../images/icon_user.png) left no-repeat !important;
+	padding-left:25px !important; 
+	
+ }
+ 
+ .txt-pass{
+ 	
+	background:url(../images/icon_pass.png) left no-repeat !important;
+	padding-left:25px !important;
+ }
+ 
+ .taotk{
+ 	overflow:hidden;
+	background:url(../images/line_shadow.png) top no-repeat;
+	
+ }
+ .p-ttk{
+ 	background:url(../images/btn_register.png) no-repeat;
+	text-align:center;
+	padding-top:10px;
+	color:#000;
+	font-size:14px;
+	font-weight:bolder;
+ }
+ 
+ .quyche{
+ 	color:black;
+	font-weight:bolder;
+	
+ }
+ 
+  .quyche:hover{
+  	font-weight:bolder;
+	color:#58595B;
+  }
+  
+  
+  
+
+.li-name{
+	width:100%;
+	cursor:pointer;
+	background:url(../images/btn_acc.png) right top no-repeat;
+	margin-top:20px;
+	
+}
+
+.li-name p{font-size:12px; padding-top:2px !important; padding-right:25px; text-align:right;}
+
+.li-name:hover ul{
+	display:block !important;
+	
+}
+
+
+.li-name ul{
+	width:184px;
+	height:139px;
+	background: url("../images/bg_acc.png") no-repeat scroll right top transparent;
+ display:none;
+    top: 37px;
+   position:absolute;
+    z-index: 9999;
+	margin-left:205px;
+}
+.li-name li{
+	
+	margin-top:10px;
+	margin-left:15px;
+}
+
+
+.sub-luu{
+	border:none;
+	background:#fff url(../images/save.png) left no-repeat;
+	padding-left:20px;
+	cursor:pointer;
+	color:#58595B;
+	font-size:16px;
+	
+	
+}
+
+.sub-luu:hover{
+	
+	color:black;
+}
+
+.capnhat{
+	
+	width:105px;
+	height:35px;
+	background:url(../images/dangky.png) no-repeat;
+	text-shadow: -1px -1px #6E8C41;
+	color:#fff;
+	font-size:17px;
+	border:none;
+	margin-left:210px;
+	cursor:pointer;
+}
+
+
+.home a{text-decoration:underline;}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--First Comment XmlTextWriter Sample Example-->
+<!--myXmlFile.xml in root dir-->
+<Stores>
+  <Store>
+    <Name>thuong</Name>
+  </Store>
+  <Store>
+    <Name>thuongtran</Name>
+  </Store>
+  <Store>
+    <Name>Smartlink8</Name>
+  </Store>
+  <Store>
+    <Name>SmartShop80</Name>
+  </Store>
+  <Store>
+    <Name>SmartLink8</Name>
+  </Store>
+</Stores>

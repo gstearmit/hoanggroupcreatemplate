@@ -1,0 +1,149 @@
+<?xml version="1.0" standalone="yes"?>
+<thuongtst>
+  <Product>
+    <product_code>8936584000018</product_code>
+    <category_code>N1</category_code>
+    <barcode>8936584000018</barcode>
+    <product_name>Sản phẩm 1</product_name>
+    <vat>0</vat>
+    <purchase_price>1000000</purchase_price>
+    <retail_price>3000000</retail_price>
+    <whole_price>1040000</whole_price>
+    <updated_at>2012-08-28T10:32:35.577+07:00</updated_at>
+    <barcode2>09</barcode2>
+  </Product>
+  <Partners>
+    <Code>09KHO</Code>
+    <AreaCode>09KHOG</AreaCode>
+    <Name>Kho hàng</Name>
+    <Company>-</Company>
+    <Phone>-</Phone>
+    <Email>-</Email>
+    <City>-</City>
+    <District>-</District>
+    <Street>-</Street>
+    <Ward>-</Ward>
+    <address>-, -, -, -</address>
+    <Account>-</Account>
+    <BarCode xml:space="preserve"> </BarCode>
+    <TaxNumber>-</TaxNumber>
+    <Birthday>2000-01-01T00:00:00+07:00</Birthday>
+    <Sex>Nam</Sex>
+    <Carrer>-</Carrer>
+    <Hobby>-</Hobby>
+    <Magazines>-</Magazines>
+    <Music>-</Music>
+    <Notes>-</Notes>
+    <uuid>48f753f1-e76e-49a9-9cd8-8ea28b95258a</uuid>
+    <created_at>2012-08-28T09:35:43.547+07:00</created_at>
+    <updated_at>2012-08-28T09:35:43.547+07:00</updated_at>
+    <is_enabled>true</is_enabled>
+    <is_deleted>false</is_deleted>
+    <created_by>09|admin</created_by>
+    <updated_by>-</updated_by>
+  </Partners>
+  <Partners>
+    <Code>09QUY</Code>
+    <AreaCode>09QUYG</AreaCode>
+    <Name>Quỹ tiền mặt</Name>
+    <Company>-</Company>
+    <Phone>-</Phone>
+    <Email>-</Email>
+    <City>-</City>
+    <District>-</District>
+    <Street>-</Street>
+    <Ward>-</Ward>
+    <address>-, -, -, -</address>
+    <Account>-</Account>
+    <BarCode xml:space="preserve"> </BarCode>
+    <TaxNumber>-</TaxNumber>
+    <Birthday>2000-01-01T00:00:00+07:00</Birthday>
+    <Sex>Nam</Sex>
+    <Carrer>-</Carrer>
+    <Hobby>-</Hobby>
+    <Magazines>-</Magazines>
+    <Music>-</Music>
+    <Notes>-</Notes>
+    <uuid>18ffd932-9bf8-4500-b374-6905e2d8608e</uuid>
+    <created_at>2012-08-28T09:35:43.533+07:00</created_at>
+    <updated_at>2012-08-28T09:35:43.533+07:00</updated_at>
+    <is_enabled>true</is_enabled>
+    <is_deleted>false</is_deleted>
+    <created_by>09|admin</created_by>
+    <updated_by>-</updated_by>
+  </Partners>
+  <Partners>
+    <Code>CHO</Code>
+    <AreaCode>NCC</AreaCode>
+    <Name>Chợ sỉ</Name>
+    <Company>-</Company>
+    <Phone>-</Phone>
+    <Email>-</Email>
+    <City>-</City>
+    <District>-</District>
+    <Street>-</Street>
+    <Ward>-</Ward>
+    <address>-, -, -, -</address>
+    <Account>-</Account>
+    <BarCode xml:space="preserve"> </BarCode>
+    <TaxNumber>-</TaxNumber>
+    <Birthday>2000-01-01T00:00:00+07:00</Birthday>
+    <Sex>Nam</Sex>
+    <Carrer>-</Carrer>
+    <Hobby>-</Hobby>
+    <Magazines>-</Magazines>
+    <Music>-</Music>
+    <Notes>-</Notes>
+    <uuid>da66225b-7004-4901-954b-81868f9d675c</uuid>
+    <created_at>2012-08-28T09:35:43.473+07:00</created_at>
+    <updated_at>2012-08-28T09:35:43.473+07:00</updated_at>
+    <is_enabled>true</is_enabled>
+    <is_deleted>false</is_deleted>
+    <created_by>09|admin</created_by>
+    <updated_by>-</updated_by>
+  </Partners>
+  <Partners>
+    <Code>KHVL</Code>
+    <AreaCode>KHG</AreaCode>
+    <Name>Khách lẻ</Name>
+    <Company>-</Company>
+    <Phone>-</Phone>
+    <Email>-</Email>
+    <City>-</City>
+    <District>-</District>
+    <Street>-</Street>
+    <Ward>-</Ward>
+    <address>-, -, -, -</address>
+    <Account>-</Account>
+    <BarCode xml:space="preserve"> </BarCode>
+    <TaxNumber>-</TaxNumber>
+    <Birthday>2000-01-01T00:00:00+07:00</Birthday>
+    <Sex>Nam</Sex>
+    <Carrer>-</Carrer>
+    <Hobby>-</Hobby>
+    <Magazines>-</Magazines>
+    <Music>-</Music>
+    <Notes>-</Notes>
+    <uuid>12f6311f-eb4b-4ca3-a53e-aeb0e8eff18d</uuid>
+    <created_at>2012-08-28T09:35:43.527+07:00</created_at>
+    <updated_at>2012-08-28T09:35:43.527+07:00</updated_at>
+    <is_enabled>true</is_enabled>
+    <is_deleted>false</is_deleted>
+    <created_by>09|admin</created_by>
+    <updated_by>-</updated_by>
+  </Partners>
+  <Branchs>
+    <code>09</code>
+    <name>Đoàn Nam</name>
+    <address>Hà Nội</address>
+    <updated_at>2012-08-28T09:35:34.827+07:00</updated_at>
+  </Branchs>
+  <Product_subcategorys>
+    <code>N1</code>
+    <name>Mỹ Phẩm</name>
+    <uuid>ef3807cc-975f-46c4-8417-ee7a39ba9a61</uuid>
+    <updated_by>09|admin</updated_by>
+    <category_code>HH</category_code>
+    <updated_at>2012-08-28T09:36:43.873+07:00</updated_at>
+  </Product_subcategorys>
+</thuongtst>

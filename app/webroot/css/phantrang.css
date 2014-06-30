@@ -1,0 +1,84 @@
+.time {
+float: left;
+margin: 34px 0px 0px 0px;
+}
+
+ .pt {
+ 	width:100%;
+ 	margin-top:10px;
+
+ 	
+ 	overflow: hidden;
+	float:left;
+ }
+ .pt-pagi {
+ 	margin-right: 15px;
+ 	text-align: right;
+	overflow:hidden;
+	padding-top:10px;
+ }
+ 
+ .pt-pagi ul{overflow:hidden;
+ 	float:right;
+ }
+  .pt-pagi li{float:left; overflow:hidden;
+  	margin-left:5px;
+	height:30px;
+	
+  }
+  .pt-so{padding-top:5px;}
+ .pt-so > span {
+	border-radius:5px !important;
+ 	padding: 5px 10px;
+	background: url(../images/so1.png) no-repeat;
+	overflow:hidden;
+	font-size:14px;
+ 	font-weight:bold;
+	margin-top:5px;
+ }
+ .pt-so span a {
+ 	font-size:14px;
+ 	font-weight:bold;
+	color:black;
+ }
+ .current {
+ 	font-size:14px;
+	font-weight:bold;
+ 	color:#3AB833;
+ }
+ 
+ .li-prev,.li-next{
+ 	width:26px; 
+	height:26px;
+	
+	
+	
+ }
+ .prev{ display:block !important;
+ 	widht:26px;
+	height:26px;
+	overflow:hidden;
+	color:white;
+	padding-right:8px;
+	font-size:17px;
+	font-weight:bold;
+	background:url(../images/prev1.png) no-repeat;
+	padding-top:2px;
+ }
+
+ 
+ .next{ display:block !important;
+ 	widht:26px;
+	height:26px;
+	overflow:hidden;
+	color:white;
+	padding-right:6px;
+	font-size:17px;
+	font-weight:bold;
+	background:url(../images/next1.png) no-repeat;
+	padding-top:2px;
+ }
+ 
+  .pt-so span a:hover{color:red;}
+  
+
