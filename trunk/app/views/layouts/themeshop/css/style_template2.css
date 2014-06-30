@@ -1,0 +1,284 @@
+*{margin:0px; padding:0px;}
+body{
+    font-size: 62.5%;
+}
+#main{
+    width:998px;
+    margin: 0px auto;
+    background: url("../image/header.png")no-repeat top left;
+}
+#header{
+    width:100%;
+    height:210px;
+    position:relative;
+}
+#header ul{
+    position:absolute;
+    bottom:0px;
+    left: 0px;
+    background: url("../image/menu-title.png")top left repeat-x;
+    height: 34px;
+    width:100%;
+
+}
+#header ul li{
+    display: inline;
+    background: url("../image/horizontal.png")no-repeat top right;
+    padding: 7px 1px 7px 0px;
+
+}
+#header ul li#home a{
+    padding: 10px 9px 10px 10px;
+    /*padding-top:10px;
+    padding-bottom:9px;
+    padding-left:10px;
+    padding-right:10px;*/
+    background: url("../image/home.png")no-repeat top right;
+}
+#header ul li a{
+    padding: 10px 9px 10px 10px;
+    text-decoration: none;
+    line-height: 34px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3em;
+  /*  margin-left: -4px;*/
+
+}
+#header ul li:hover a{
+    background: url("../image/home.png")no-repeat top right;
+}
+/************* side-left*******************/
+#side-left{
+    width:192px;
+    float: left;
+    margin-top: 2px;
+
+}
+#side-left .boxes {
+    background:#e0eef6;
+    margin-bottom: 5px;
+}
+#side-left .boxes h2{
+    font-size: 1.5em;
+    background:   url("../image/menu-title.png")top left repeat-x;
+    padding:10px;
+    line-height:14px;
+    color: white;
+}
+#side-left .boxes ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style:none;
+    padding-left:15px;
+    padding-top:7px;
+    padding-bottom:0.7em;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-bottom:dotted 1px  #939393;
+    background: url("../image/icon-menu-left1.png")no-repeat left top;
+    color: #2a2929;
+}
+#side-left .boxes ul li:hover a.superior{
+    color: #0175c1;
+}
+#side-left .boxes ul li:hover{
+    background: url("../image/icon-menu-left.png")no-repeat left top;
+}
+#side-left .boxes ul li a.superior{
+    padding: 5px;
+    text-decoration: none;
+    color: #2a2929;
+}
+#side-left .boxes ul li ul li{
+    display:none;
+    background: url("../image/dot.png")no-repeat left top;
+    color: #2a2929;
+}
+#side-left .boxes ul li ul li a{
+    font-size: 0.7em;
+    font-weight: normal;
+    color: #2a2929;
+    text-decoration: none;
+
+
+}
+#side-left .boxes ul li:hover ul li{
+    display:block;
+    background: url("../image/dot.png")no-repeat left top;
+}
+#side-left .boxes ul li ul li:hover a{
+    text-decoration:underline;
+    color: #0175c1;
+
+}
+#side-left .boxes #access{
+    padding: 10px;
+    font-size: 1.3em;
+}
+#side-left .boxes img{
+    padding-left: 3px;
+}
+/******************* content*********************************/
+.clear{clear: both;}
+#content{
+    width:592px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+#main-promotion{
+    border: 1px solid #d1d1d1;
+    position: relative;
+}
+.promotions h2{
+    background: url("../image/menu-title.png")repeat-x top right;
+    padding:10px;
+    line-height: 14px;
+    color: white;
+}
+.promotions div{
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+}
+.promotions div img{
+    float: left;
+    margin-right: 10px;
+}
+.promotions div a{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #0175c1;
+}
+.promotions div a:hover{
+    color: #2a2929;
+}
+.promotions div p{
+    font-size: 1.3em;
+}
+/****************** new-product **************************/
+#new-product{
+    border: 1px solid #d1d1d1;
+    position: relative;
+    margin-top: 10px;
+}
+#new-product h2{
+    background: url("../image/menu-title.png")repeat-x top left;
+    font-size:1.4em;
+    line-height: 14px;
+    padding: 10px;
+    color:white;
+}
+.product{
+    width:185px;
+    height: 200px;
+    float:left;
+    text-align: center;
+    padding:5px;
+    font-size:1.2em;
+    margin-bottom: 10px;
+}
+.product .price{
+    color: red;
+
+}
+.product a span {
+    background: url("../image/dat_hang.png")no-repeat top left;
+    padding:6px 49px;
+    float: left;
+    margin-left:43px;
+
+}
+#side-right{
+    margin-top: 3px;
+    margin-left: 10px;
+    float: right;
+    width:192px;
+
+}
+#side-right .boxes{
+    border: 1px solid #d1d1d1;
+    margin-bottom: 10px;
+}
+#side-right h2{
+    background: url("../image/menu-title.png")repeat-x top left;
+    font-size:1.3em;
+    padding: 10px;
+    line-height:14px;
+    color: white;
+}
+#side-right div#call{
+    padding-left: 30px;
+    background: url("../image/icon-call.png")no-repeat left top;
+    margin: 10px;
+}
+#side-right div#call ul li{
+    list-style:none;
+    font-size:1.3em;
+    font-weight: bold;
+    color: #0175c1;
+}
+#side-right div#edit{
+    padding-left: 30px;
+    background: url("../image/icon-edit.png")no-repeat left top;
+    margin: 10px;
+}
+#side-right div#edit ul li{
+    list-style:none;
+    font-size:1.3em;
+    font-weight: bold;
+    color: #0175c1;
+}
+#side-right div#yahoo{
+    margin:10px;
+}
+#side-right div#yahoo ul li{
+    padding:10px 30px;
+    list-style: none;
+    font-size:1.3em;
+    color: #0175c1;
+    background: url("../image/icon-yahoo.png") no-repeat top left;
+}
+
+#side-right div#skype{
+    margin:10px;
+}
+#side-right div#skype ul li{
+    padding:10px 30px;
+    list-style: none;
+    font-size:1.3em;
+    color: #0175c1;
+    background: url("../image/icon-skype.png") no-repeat top left;
+}
+.promotion{
+    margin: 10px;
+    float: left;
+    font-size: 1.2em;
+}
+.promotion img{
+    float: left;
+    margin-right: 10px;
+}
+/********************************* footer *******************************************/
+#footer{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    background: url("../image/footer.png")no-repeat top left;
+    margin-top: 20px;
+}
+
+#footer ul li{
+    margin-top: 40px;
+    display: inline;
+    list-style:none;
+    font-size:1.4em;
+}
+#footer ul li a{
+    text-decoration:none;
+    color: #373737
+}
+

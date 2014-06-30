@@ -1,0 +1,56 @@
+#footer{
+	width:100%;
+	margin-top:10px;
+	overflow:hidden;
+	height:239px;
+	background:url(../images/footer.png) repeat-x;
+}
+
+.bor-footer{
+	height:239px;
+	width:1000px;
+	margin:auto;
+	
+}
+
+.cot1{
+	height:100%;
+	width:321px;
+	float:left;
+	overflow:hidden;
+	background:url(../images/right.png) right no-repeat;
+	
+	
+}
+
+.cot2{
+		height:100%;
+	width:321px;
+	float:left;
+	overflow:hidden;
+	
+}
+
+.cot1 p,.cot2 p{margin-left:13px;padding-right:10px;color:white;padding-top:4px;
+
+}
+
+.p-ten{height:25px;
+padding-top:15px !important;
+	border-bottom:1px solid #6d6e71;
+	width:290px;
+	
+	font-size:14px;
+	color:#a3f112 !important; 
+	font-weight:bold;
+}
+.tenct{font-weight:bold;}
+.diachi{
+	background:url(../images/mt.png) left 5px no-repeat;
+	padding-left:15px;
+}
+
+.a-tit{color:white;}
+
+.a-tit:hover{color:#a3f112;}
+.cot{margin-left:17px;}

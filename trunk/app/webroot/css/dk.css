@@ -1,0 +1,25 @@
+.member_register1 .right {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #CDCDCD;
+    border-radius: 6px 6px 6px 6px;
+    float: right;
+    margin-right: 150px;
+    margin-top:10px;
+    padding: 10px;
+    text-align: left;
+    width: 680px;
+    margin-bottom:10px;
+}
+.lbComment {
+    color: #666666;
+    display: block;
+    font-size: 11px;
+    margin-top: 3px;
+}
+.ui-widget-header {
+    background: none repeat scroll 0 0 #81B935;
+    border: 1px solid #AED0EA;
+    color: #222222;
+    font-weight: bold;
+    padding: 0.7em 1em;
+}
